@@ -35,35 +35,42 @@ nav button{
     font-family: Arial, sans-serif;
 }*/
 
-.hero {
-    min-height: 90vh;
+.Hero {
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 70px;
+    padding: 50px 70px;
+    gap: 40px;
+}
+
+.hero-text{
+    width: 50px;
 }
 
 .hello {
-    font-size: 70px;
+    font-size:45px;
     font-style: italic;
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 
-h1 {
-    font-size: 90px;
+.hero-text h1 {
+    font-size: 80px;
     margin: 0;
+    line-height:1;
 }
 
-h1 span {
+ h1 span {
     color: orange;
 }
 
-h2 {
-    font-size: 30px;
+.hero-text h2 {
+    font-size: 32px;
     font-weight: 400;
+    margin: 20px 0;
 }
 
-h2 span {
+ h2 span {
     color: orange;
 }
 
@@ -73,29 +80,17 @@ h2 span {
     max-width: 500px;
 }
 
-.buttons {
+
+
+.hero-image  {
+    width: 50%;
     display: flex;
-    gap: 20px;
-    margin-top: 30px;
+    justify-content: center;
 }
-
-.buttons button {
-    padding: 15px 30px;
-    border-radius: 50px;
-    border: none;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-}
-
-.about-btn {
-    background-color: transparent !important;
-    color: black !important;
-    border: 1px solid black !important;
-}
-
 .hero-image img {
     width: 500px;
+    max-width: 100%;
     height: 600px;
     object-fit: cover;
+    border-radius: 20px;
 }
